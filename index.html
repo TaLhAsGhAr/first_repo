@@ -161,19 +161,24 @@ header #menu
     resize: none;
 	margin-left:54px;
 }
-.footer
-{
-    margin-top:75px;
-    padding:45px;
-    text-align:center;
-    background: gray;
-}
-.footer p 
-{
+.nav-main {
+    display: flex;
+    justify-content: space-evenly;
     letter-spacing: 2px;
-    font-size: 23px;
-    color:#fff;
-}
+
+  }
+  .nav-main ul li {
+    margin-bottom: 7px;
+  }
+  .nav-main h2 {
+    margin-bottom: 7px;
+  }
+
+  .nav1 {
+    padding: 20px;
+    font-size: 19px;
+    color: aliceblue;
+  }
     </style>
 </head>
 
@@ -222,8 +227,63 @@ header #menu
 
         </div>
 
-        <div class="footer">
-            <p>Design By D-CAKE</p>
+        <!-- footer -->
+        <section style="background-color: rgb(0, 0, 0); height: 300px">
+      <footer class="nav-main">
+        <span class="nav1">
+          <ul>
+            <h2 style="color: rgb(43, 255, 0)">CUSTOMER RESOURCES</h2>
+            <li>Check On My Order</li>
+            <li>Contact Customer Service</li>
+            <li>Financing</li>
+            <li>Return and Warranty Policy</li>
+            <li>Shipping</li>
+            <li>Guns for Sale</li>
+          </ul>
+        </span>
+        <span class="nav1">
+          <ul>
+            <h2 style="color: rgb(43, 255, 0)">SELLER RESOURCES</h2>
+            <li>Join the Guns.com Network</li>
+            <li>Login to My Seller Dashboard</li>
+            <li>Contact a Rangemaster</li>
+            <li>Affiliate Program</li>
+            <div>
+              <p style="margin-top: 60px">----------------</p>
+              <a href="https://www.facebook.com/"
+                ><i
+                  style="color: rgb(0, 153, 255)"
+                  class="fa-brands fa-facebook-f"
+                ></i
+              ></a>
+              <a href="https://www.instagram.com/"
+                ><i
+                  style="color: rgb(233, 89, 80); margin-left: 30px"
+                  class="fab fa-instagram"
+                ></i
+              ></a>
+              <a href="https://www.twitter.com/"
+                ><i
+                  style="color: rgb(0, 153, 255); margin-left: 30px"
+                  class="fa-brands fa-twitter"
+                ></i
+              ></a>
+              <p>----------------</p>
+            </div>
+          </ul>
+        </span>
+        <span class="nav1">
+          <ul>
+            <h2 style="color: rgb(43, 255, 0)">WHO WE ARE</h2>
+            <li>About Us</li>
+            <li>We Give Back</li>
+            <li>Influencers</li>
+            <li>Guns.com Careers</li>
+            <li>Customer Reviews</li>
+          </ul>
+        </span>
+      </footer>
+    </section>
         </div>
     </footer>
      
